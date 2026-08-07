@@ -631,6 +631,8 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
 .article-body p { color: var(--ink-soft); font-size: 1.08rem; margin-top: 14px; }
 .article-cta { margin-top: 54px; border-top: 1px solid var(--line); padding-top: 30px; }
 .article-cta .btn { margin-top: 26px; }
+.article-cta-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.article-cta-actions .btn{margin-top:0}
 .article-pager { margin-top: 46px; padding-top: 26px; border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
 .article-pager a, .article-pager span { min-height: 118px; display: flex; flex-direction: column; justify-content: space-between; padding: 20px; border: 1px solid var(--line); border-radius: 8px; background: color-mix(in oklab, var(--bg-2) 58%, transparent); }
 .article-pager small { font-family:'Space Mono',monospace; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
@@ -670,7 +672,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
         <button data-lang="es" aria-pressed="true">ES</button>
         <button data-lang="en" aria-pressed="false">EN</button>
       </div>
-      <a href="../../#contacto" class="btn btn-primary" style="padding:11px 22px" data-en="Contact">Contacto</a>
+      <a href="../../#leadForm" class="btn btn-primary" style="padding:11px 22px" data-en="Contact">Contacto</a>
       <button class="nav-toggle btn btn-ghost" id="navToggle" style="padding:11px 14px" aria-label="Menú" aria-expanded="false">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="17" x2="21" y2="17"/></svg>
       </button>
@@ -685,7 +687,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
     <a href="../../#alcance" data-en="Scope">Alcance</a>
     <a href="../../#proyectos" data-en="Projects">Proyectos</a>
     <a href="../" data-en="Blog">Blog</a>
-    <a href="../../#contacto" data-en="Contact">Contacto</a>
+    <a href="../../#leadForm" data-en="Contact">Contacto</a>
   </div>
 </div>
 
@@ -729,7 +731,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
       <p data-en="The expensive mistakes are predictable. Closing the budget without opening up a wall to check the real state of installations; choosing the cheapest quote without comparing what each one actually includes; changing decisions once the work has started, which triggers rework; and underestimating the damp problem so that anti-mould treatment, ventilation and proper waterproofing are left out and have to be redone. A cheap renovation that ignores the Atlantic climate is the most expensive renovation of all.">Los errores caros son predecibles. Cerrar el presupuesto sin abrir una cata para comprobar el estado real de las instalaciones; elegir el presupuesto más barato sin comparar qué incluye realmente cada uno; cambiar decisiones con la obra ya empezada, lo que genera rehacer trabajos; e infravalorar el problema de humedad, dejando fuera el tratamiento antimoho, la ventilación y una impermeabilización correcta que luego hay que rehacer. Una reforma barata que ignora el clima atlántico es la reforma más cara de todas.</p>
       <p data-en="Another classic in A Coruña is treating the kitchen and bathroom as afterthoughts. They concentrate the plumbing, the waterproofing and the appliances, so they drive both budget and timeline. Planning them early, see our dedicated kitchen and bathroom guides, avoids last-minute compromises.">Otro clásico en A Coruña es tratar cocina y baño como un añadido de última hora. Concentran la fontanería, la impermeabilización y los electrodomésticos, así que marcan tanto el presupuesto como el plazo. Planificarlos pronto, consulta nuestras guías de <a href="../reforma-cocina-coruna/">reforma de cocina</a> y <a href="../reforma-bano-coruna/">reforma de baño</a>, evita renuncias de última hora.</p>
       <h2 data-en="How Punto Reforma A Coruña manages it">Cómo lo gestiona Punto Reforma A Coruña</h2>
-      <p data-en="We work with a single point of contact and a closed, itemised budget agreed before anyone touches a wall. Every project starts with a survey that opens up the critical points (electrical panel, wet rooms, façade joinery) so the price reflects reality, not optimism. We coordinate every trade, handle the comunicación previa paperwork and the ICIO, and we build damp control into the spec from day one because in A Coruña it is not optional. You can send us photos and we reply within 48 hours; the contact form is on the home page.">Trabajamos con un único interlocutor y un presupuesto cerrado y desglosado, acordado antes de tocar ningún tabique. Cada proyecto arranca con una inspección que abre los puntos críticos (cuadro eléctrico, zonas húmedas, carpintería de fachada) para que el precio refleje la realidad y no el optimismo. Coordinamos todos los gremios, gestionamos los trámites de comunicación previa y el ICIO, e integramos el control de humedad en el proyecto desde el primer día porque en A Coruña no es opcional. Puedes enviarnos fotos y te respondemos en 48 horas; el <a href="../../#contacto">formulario de contacto</a> está en la portada.</p>
+      <p data-en="We work with a single point of contact and a closed, itemised budget agreed before anyone touches a wall. Every project starts with a survey that opens up the critical points (electrical panel, wet rooms, façade joinery) so the price reflects reality, not optimism. We coordinate every trade, handle the comunicación previa paperwork and the ICIO, and we build damp control into the spec from day one because in A Coruña it is not optional. You can send us photos and we reply within 48 hours; the contact form is on the home page.">Trabajamos con un único interlocutor y un presupuesto cerrado y desglosado, acordado antes de tocar ningún tabique. Cada proyecto arranca con una inspección que abre los puntos críticos (cuadro eléctrico, zonas húmedas, carpintería de fachada) para que el precio refleje la realidad y no el optimismo. Coordinamos todos los gremios, gestionamos los trámites de comunicación previa y el ICIO, e integramos el control de humedad en el proyecto desde el primer día porque en A Coruña no es opcional. Puedes enviarnos fotos y te respondemos en 48 horas; el <a href="../../#leadForm">formulario de contacto</a> está en la portada.</p>
       <h2 data-en="Frequently asked questions">Preguntas frecuentes</h2>
       <div class="faq-list">
         <details class="faq-item"><summary data-en="How long does a full renovation take in A Coruña?">¿Cuánto dura una reforma integral en A Coruña?</summary><p data-en="A complete 90 m² flat usually takes between 10 and 16 weeks of works once permits are filed, plus a few weeks of design and procurement beforehand. Listed buildings and complex layouts add time.">Un piso completo de 90 m² suele llevar entre 10 y 16 semanas de obra una vez presentados los permisos, más unas semanas previas de diseño y aprovisionamiento. Los edificios catalogados y las distribuciones complejas añaden tiempo.</p></details>
@@ -742,7 +744,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
       <div class="article-cta">
         <h2 data-en="Ready to plan your renovation?">¿Listo para planificar tu reforma?</h2>
         <p data-en="Tell us what you want to change and send a few photos. We reply within 48 hours.">Cuéntanos qué quieres cambiar y envíanos algunas fotos. Te respondemos en 48 horas.</p>
-        <a class="btn btn-primary" href="https://wa.me/34662411064" data-en="Send photos via WhatsApp">Enviar fotos por WhatsApp <span class="arrow">→</span></a>
+        <div class="article-cta-actions"><a class="btn btn-primary" href="../../#leadForm"><span data-en="Tell us about your project">Cuéntanos tu proyecto</span> <span class="arrow">→</span></a><a class="btn btn-ghost" href="https://wa.me/34662411064" data-en="Send photos via WhatsApp">Enviar fotos por WhatsApp</a></div>
       </div>
       <nav class="article-pager" aria-label="Navegación de artículos">
         <a href="../reforma-cocina-coruna-precio/"><small data-en="Previous article">Artículo anterior</small><strong data-en="How much does a kitchen renovation cost in A Coruña">Cuánto cuesta reformar una cocina en A Coruña</strong></a>
@@ -776,13 +778,14 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
           <li><a href="../../#alcance" data-en="Scope">Alcance</a></li>
           <li><a href="../../#proyectos" data-en="Projects">Proyectos</a></li>
           <li><a href="../" data-en="Blog">Blog</a></li>
-          <li><a href="../../#contacto" data-en="Contact">Contacto</a></li>
+          <li><a href="../../#leadForm" data-en="Contact">Contacto</a></li>
         </ul>
       </div>
       <div>
         <h4 data-en="Network">Red</h4>
         <ul>
           <li><a href="https://puntoreforma.es/ciudades/" data-en="Locations">Ubicaciones</a></li>
+          <li><a href="https://puntoreforma.es/preguntas-frecuentes/" data-en="FAQ">Preguntas frecuentes</a></li>
           <li><a href="https://puntoreforma.es/partners/" data-en="Collaborators">Colaboradores</a></li>
           <li><a href="https://puntoreforma.es/legal/" data-en="Legal notice">Aviso legal</a></li>
         </ul>

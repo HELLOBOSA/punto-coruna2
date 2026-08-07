@@ -631,6 +631,8 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
 .article-body p { color: var(--ink-soft); font-size: 1.08rem; margin-top: 14px; }
 .article-cta { margin-top: 54px; border-top: 1px solid var(--line); padding-top: 30px; }
 .article-cta .btn { margin-top: 26px; }
+.article-cta-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.article-cta-actions .btn{margin-top:0}
 .article-pager { margin-top: 46px; padding-top: 26px; border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
 .article-pager a, .article-pager span { min-height: 118px; display: flex; flex-direction: column; justify-content: space-between; padding: 20px; border: 1px solid var(--line); border-radius: 8px; background: color-mix(in oklab, var(--bg-2) 58%, transparent); }
 .article-pager small { font-family:'Space Mono',monospace; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
@@ -670,7 +672,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
         <button data-lang="es" aria-pressed="true">ES</button>
         <button data-lang="en" aria-pressed="false">EN</button>
       </div>
-      <a href="../../#contacto" class="btn btn-primary" style="padding:11px 22px" data-en="Contact">Contacto</a>
+      <a href="../../#leadForm" class="btn btn-primary" style="padding:11px 22px" data-en="Contact">Contacto</a>
       <button class="nav-toggle btn btn-ghost" id="navToggle" style="padding:11px 14px" aria-label="Menú" aria-expanded="false">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="17" x2="21" y2="17"/></svg>
       </button>
@@ -685,7 +687,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
     <a href="../../#alcance" data-en="Scope">Alcance</a>
     <a href="../../#proyectos" data-en="Projects">Proyectos</a>
     <a href="../" data-en="Blog">Blog</a>
-    <a href="../../#contacto" data-en="Contact">Contacto</a>
+    <a href="../../#leadForm" data-en="Contact">Contacto</a>
   </div>
 </div>
 
@@ -775,7 +777,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
 
       <h2 data-en="Permits and how they are handled">Permisos y cómo se gestionan</h2>
       <p data-en="For a standard kitchen renovation that does not touch the structure or the façade, the route in A Coruña is the comunicación previa filed with the Concello. Once the complete documentation is submitted, the works can legally begin after fifteen business days (15 días hábiles) if the council raises no objection, rather than waiting for an active approval. The municipal construction tax, the ICIO, is around 4% of the budgeted execution cost, plus the corresponding fee.">Para una reforma de cocina estándar que no toca la estructura ni la fachada, la vía en A Coruña es la comunicación previa presentada en el Concello. Una vez entregada la documentación completa, las obras pueden comenzar legalmente pasados quince días hábiles (15 días hábiles) si el ayuntamiento no plantea objeciones, en lugar de esperar una aprobación expresa. El impuesto municipal de construcciones, el ICIO, ronda el 4% del presupuesto de ejecución, más la tasa correspondiente.</p>
-      <p data-en="If your kitchen project involves opening or moving a load-bearing wall, you cross into works that need a technical project and a structural calculation, signed by a competent professional; architects in the area are registered in Spain. Flats inside protected, catalogued buildings, common in the Ciudad Vieja, follow a stricter and slower process, because any intervention affecting protected elements requires specific authorisation. We handle the paperwork on every job and tell you upfront which route yours falls under, so there are no surprises. If you would like us to check your specific case, get in touch and we will tell you exactly what applies.">Si tu proyecto de cocina implica abrir o mover un muro de carga, entras en obras que necesitan proyecto técnico y cálculo de estructura, firmados por un profesional competente; los arquitectos de la zona están colegiados en España. Los pisos dentro de edificios protegidos y catalogados, frecuentes en la Ciudad Vieja, siguen un trámite más estricto y lento, porque cualquier intervención que afecte a elementos protegidos requiere autorización específica. Nosotros gestionamos el papeleo en cada obra y te decimos de antemano por qué vía va la tuya, para que no haya sorpresas. Si quieres que revisemos tu caso concreto, <a href="../../#contacto">ponte en contacto</a> y te diremos exactamente qué aplica.</p>
+      <p data-en="If your kitchen project involves opening or moving a load-bearing wall, you cross into works that need a technical project and a structural calculation, signed by a competent professional; architects in the area are registered in Spain. Flats inside protected, catalogued buildings, common in the Ciudad Vieja, follow a stricter and slower process, because any intervention affecting protected elements requires specific authorisation. We handle the paperwork on every job and tell you upfront which route yours falls under, so there are no surprises. If you would like us to check your specific case, get in touch and we will tell you exactly what applies.">Si tu proyecto de cocina implica abrir o mover un muro de carga, entras en obras que necesitan proyecto técnico y cálculo de estructura, firmados por un profesional competente; los arquitectos de la zona están colegiados en España. Los pisos dentro de edificios protegidos y catalogados, frecuentes en la Ciudad Vieja, siguen un trámite más estricto y lento, porque cualquier intervención que afecte a elementos protegidos requiere autorización específica. Nosotros gestionamos el papeleo en cada obra y te decimos de antemano por qué vía va la tuya, para que no haya sorpresas. Si quieres que revisemos tu caso concreto, <a href="../../#leadForm">ponte en contacto</a> y te diremos exactamente qué aplica.</p>
 
       <h2 data-en="Frequently asked questions">Preguntas frecuentes</h2>
       <div class="faq-list">
@@ -790,7 +792,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
       <div class="article-cta">
         <h2 data-en="Ready to plan your renovation?">¿Listo para planificar tu reforma?</h2>
         <p data-en="Tell us what you want to change and send a few photos. We reply within 48 hours.">Cuéntanos qué quieres cambiar y envíanos algunas fotos. Te respondemos en 48 horas.</p>
-        <a class="btn btn-primary" href="https://wa.me/34662411064" data-en="Send photos via WhatsApp">Enviar fotos por WhatsApp <span class="arrow">→</span></a>
+        <div class="article-cta-actions"><a class="btn btn-primary" href="../../#leadForm"><span data-en="Tell us about your project">Cuéntanos tu proyecto</span> <span class="arrow">→</span></a><a class="btn btn-ghost" href="https://wa.me/34662411064" data-en="Send photos via WhatsApp">Enviar fotos por WhatsApp</a></div>
       </div>
       <nav class="article-pager" aria-label="Navegación de artículos">
         <a href="../reforma-bano-coruna/"><small data-en="Previous article">Artículo anterior</small><strong data-en="Bathroom renovation in A Coruña">Reforma de baño en A Coruña</strong></a>
@@ -824,13 +826,14 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
           <li><a href="../../#alcance" data-en="Scope">Alcance</a></li>
           <li><a href="../../#proyectos" data-en="Projects">Proyectos</a></li>
           <li><a href="../" data-en="Blog">Blog</a></li>
-          <li><a href="../../#contacto" data-en="Contact">Contacto</a></li>
+          <li><a href="../../#leadForm" data-en="Contact">Contacto</a></li>
         </ul>
       </div>
       <div>
         <h4 data-en="Network">Red</h4>
         <ul>
           <li><a href="https://puntoreforma.es/ciudades/" data-en="Locations">Ubicaciones</a></li>
+          <li><a href="https://puntoreforma.es/preguntas-frecuentes/" data-en="FAQ">Preguntas frecuentes</a></li>
           <li><a href="https://puntoreforma.es/partners/" data-en="Collaborators">Colaboradores</a></li>
           <li><a href="https://puntoreforma.es/legal/" data-en="Legal notice">Aviso legal</a></li>
         </ul>

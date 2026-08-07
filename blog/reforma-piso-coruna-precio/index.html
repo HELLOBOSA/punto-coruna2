@@ -647,6 +647,8 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
 .article-body p { color: var(--ink-soft); font-size: 1.08rem; margin-top: 14px; }
 .article-cta { margin-top: 54px; border-top: 1px solid var(--line); padding-top: 30px; }
 .article-cta .btn { margin-top: 26px; }
+.article-cta-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.article-cta-actions .btn{margin-top:0}
 .article-pager { margin-top: 46px; padding-top: 26px; border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
 .article-pager a, .article-pager span { min-height: 118px; display: flex; flex-direction: column; justify-content: space-between; padding: 20px; border: 1px solid var(--line); border-radius: 8px; background: color-mix(in oklab, var(--bg-2) 58%, transparent); }
 .article-pager small { font-family:'Space Mono',monospace; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
@@ -686,7 +688,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
         <button data-lang="es" aria-pressed="true">ES</button>
         <button data-lang="en" aria-pressed="false">EN</button>
       </div>
-      <a href="../../#contacto" class="btn btn-primary" style="padding:11px 22px" data-en="Contact">Contacto</a>
+      <a href="../../#leadForm" class="btn btn-primary" style="padding:11px 22px" data-en="Contact">Contacto</a>
       <button class="nav-toggle btn btn-ghost" id="navToggle" style="padding:11px 14px" aria-label="Menú" aria-expanded="false">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="17" x2="21" y2="17"/></svg>
       </button>
@@ -701,7 +703,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
     <a href="../../#alcance" data-en="Scope">Alcance</a>
     <a href="../../#proyectos" data-en="Projects">Proyectos</a>
     <a href="../" data-en="Blog">Blog</a>
-    <a href="../../#contacto" data-en="Contact">Contacto</a>
+    <a href="../../#leadForm" data-en="Contact">Contacto</a>
   </div>
 </div>
 
@@ -772,7 +774,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
           <tr><td>120 m²</td><td>18.000–42.000 €</td><td>66.000–145.000 €</td></tr>
         </tbody>
       </table>
-      <p data-en="These figures are a starting point, not a quote. The only way to know your real cost is a visit to see the state of the installations and the building. Tell us about your flat through our <a href=\"../../#contacto\">contact section</a> and we will give you a clear, itemised estimate.">Estas cifras son un punto de partida, no un presupuesto cerrado. La única forma de conocer tu coste real es una visita para ver el estado de las instalaciones y del edificio. Cuéntanos cómo es tu piso desde nuestra <a href="../../#contacto">sección de contacto</a> y te daremos una estimación clara y desglosada.</p>
+      <p data-en="These figures are a starting point, not a quote. The only way to know your real cost is a visit to see the state of the installations and the building. Tell us about your flat through our <a href=\"../../#contacto\">contact section</a> and we will give you a clear, itemised estimate.">Estas cifras son un punto de partida, no un presupuesto cerrado. La única forma de conocer tu coste real es una visita para ver el estado de las instalaciones y del edificio. Cuéntanos cómo es tu piso desde nuestra <a href="../../#leadForm">sección de contacto</a> y te daremos una estimación clara y desglosada.</p>
 
       <h2 data-en="When a cheap renovation turns out expensive">Cuándo una reforma barata sale cara</h2>
       <p data-en="The lowest quote is rarely the cheapest in the end. In A Coruña, the most common false savings are: painting over damp instead of treating the cause, so the mould comes back in one winter; leaving old galvanised or lead pipes in place because they were not in the visible budget; skipping ventilation in a renovated bathroom, which guarantees condensation; and informal labour without a contract, insurance or a real guarantee. A serious quote breaks down every line, declares the materials and includes the permit. If a price is far below the rest, ask what it leaves out, because the difference usually appears later as an unexpected extra.">El presupuesto más bajo rara vez es el más barato al final. En A Coruña, los falsos ahorros más habituales son: pintar sobre la humedad en vez de tratar la causa, así que el moho vuelve en un invierno; dejar las viejas tuberías galvanizadas o de plomo porque no estaban en el presupuesto visible; saltarse la ventilación en un baño reformado, lo que garantiza condensación; y la mano de obra informal sin contrato, sin seguro y sin garantía real. Un presupuesto serio desglosa cada partida, declara los materiales e incluye la licencia. Si un precio está muy por debajo del resto, pregunta qué deja fuera, porque la diferencia suele aparecer después como un extra inesperado.</p>
@@ -790,7 +792,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
       <div class="article-cta">
         <h2 data-en="Ready to plan your renovation?">¿Listo para planificar tu reforma?</h2>
         <p data-en="Tell us what you want to change and send a few photos. We reply within 48 hours.">Cuéntanos qué quieres cambiar y envíanos algunas fotos. Te respondemos en 48 horas.</p>
-        <a class="btn btn-primary" href="https://wa.me/34662411064" data-en="Send photos via WhatsApp">Enviar fotos por WhatsApp <span class="arrow">→</span></a>
+        <div class="article-cta-actions"><a class="btn btn-primary" href="../../#leadForm"><span data-en="Tell us about your project">Cuéntanos tu proyecto</span> <span class="arrow">→</span></a><a class="btn btn-ghost" href="https://wa.me/34662411064" data-en="Send photos via WhatsApp">Enviar fotos por WhatsApp</a></div>
       </div>
       <nav class="article-pager" aria-label="Navegación de artículos">
         <a href="../reforma-cocina-coruna/"><small data-en="Previous article">Artículo anterior</small><strong data-en="Kitchen renovation in A Coruña">Reforma de cocina en A Coruña</strong></a>
@@ -824,13 +826,14 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
           <li><a href="../../#alcance" data-en="Scope">Alcance</a></li>
           <li><a href="../../#proyectos" data-en="Projects">Proyectos</a></li>
           <li><a href="../" data-en="Blog">Blog</a></li>
-          <li><a href="../../#contacto" data-en="Contact">Contacto</a></li>
+          <li><a href="../../#leadForm" data-en="Contact">Contacto</a></li>
         </ul>
       </div>
       <div>
         <h4 data-en="Network">Red</h4>
         <ul>
           <li><a href="https://puntoreforma.es/ciudades/" data-en="Locations">Ubicaciones</a></li>
+          <li><a href="https://puntoreforma.es/preguntas-frecuentes/" data-en="FAQ">Preguntas frecuentes</a></li>
           <li><a href="https://puntoreforma.es/partners/" data-en="Collaborators">Colaboradores</a></li>
           <li><a href="https://puntoreforma.es/legal/" data-en="Legal notice">Aviso legal</a></li>
         </ul>

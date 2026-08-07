@@ -631,6 +631,8 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
 .article-body p { color: var(--ink-soft); font-size: 1.08rem; margin-top: 14px; }
 .article-cta { margin-top: 54px; border-top: 1px solid var(--line); padding-top: 30px; }
 .article-cta .btn { margin-top: 26px; }
+.article-cta-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.article-cta-actions .btn{margin-top:0}
 .article-pager { margin-top: 46px; padding-top: 26px; border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
 .article-pager a, .article-pager span { min-height: 118px; display: flex; flex-direction: column; justify-content: space-between; padding: 20px; border: 1px solid var(--line); border-radius: 8px; background: color-mix(in oklab, var(--bg-2) 58%, transparent); }
 .article-pager small { font-family:'Space Mono',monospace; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
@@ -670,7 +672,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
         <button data-lang="es" aria-pressed="true">ES</button>
         <button data-lang="en" aria-pressed="false">EN</button>
       </div>
-      <a href="../../#contacto" class="btn btn-primary" style="padding:11px 22px" data-en="Contact">Contacto</a>
+      <a href="../../#leadForm" class="btn btn-primary" style="padding:11px 22px" data-en="Contact">Contacto</a>
       <button class="nav-toggle btn btn-ghost" id="navToggle" style="padding:11px 14px" aria-label="Menú" aria-expanded="false">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="17" x2="21" y2="17"/></svg>
       </button>
@@ -685,7 +687,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
     <a href="../../#alcance" data-en="Scope">Alcance</a>
     <a href="../../#proyectos" data-en="Projects">Proyectos</a>
     <a href="../" data-en="Blog">Blog</a>
-    <a href="../../#contacto" data-en="Contact">Contacto</a>
+    <a href="../../#leadForm" data-en="Contact">Contacto</a>
   </div>
 </div>
 
@@ -720,7 +722,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
       <p data-en="Pair the extractor with anti-mould measures: anti-mould silicone in the joints, paint with fungicide additive on any plastered surface, and tiles that reach high enough to protect the wet zone. Heated towel rails also help by keeping surfaces above the dew point so condensation does not settle. In a city this damp, ventilation is not a luxury add-on, it is what keeps the renovation looking new past the first winter.">Acompaña el extractor con medidas anti-moho: silicona antimoho en las juntas, pintura con aditivo fungicida en cualquier superficie enlucida y un alicatado que suba lo suficiente para proteger la zona húmeda. Los toalleros radiantes también ayudan al mantener las superficies por encima del punto de rocío para que la condensación no se asiente. En una ciudad tan húmeda, la ventilación no es un extra de lujo, es lo que mantiene la reforma como nueva más allá del primer invierno.</p>
       <h2 data-en="Permits and the community of owners">Permisos y comunidad</h2>
       <p data-en="Most bathroom renovations in A Coruña are minor works processed through a comunicación previa to the city council. Once the complete documentation is filed, the work can legally begin after 15 working days. You should budget for the ICIO, the tax on construction and installations, which is roughly 4% of the execution budget. If your project touches structure, façade or shared elements, or if you need a technical project, an architect registered in Spain will draw up and sign the documentation.">La mayoría de las reformas de baño en A Coruña son obras menores que se tramitan mediante una comunicación previa al ayuntamiento. Una vez presentada la documentación completa, la obra puede comenzar legalmente transcurridos 15 días hábiles. Conviene presupuestar el ICIO, el impuesto sobre construcciones e instalaciones, que ronda el 4% del presupuesto de ejecución. Si tu proyecto afecta a estructura, fachada o elementos comunes, o si necesitas un proyecto técnico, un arquitecto colegiado en España redactará y firmará la documentación.</p>
-      <p data-en="Buildings in the protected Cidade Vella are a special case: catalogued buildings are handled under stricter heritage rules, so the timeline and paperwork are longer and any intervention must respect the protection. Beyond the council, keep your community of owners informed. A bathroom inside your flat does not need their permission, but anything affecting shared waste stacks or load-bearing walls usually does, and a quick conversation before you start saves friction later. If you are unsure about your case, you can <a href=\"../../#contacto\">contactar con nosotros</a> and we will tell you which route applies.">Los edificios de la Cidade Vella protegida son un caso especial: los inmuebles catalogados se rigen por normas patrimoniales más estrictas, de modo que los plazos y el papeleo son más largos y cualquier intervención debe respetar la protección. Más allá del ayuntamiento, mantén informada a tu comunidad de propietarios. Un baño dentro de tu vivienda no necesita su permiso, pero todo lo que afecte a bajantes comunes o muros de carga normalmente sí, y una conversación breve antes de empezar evita roces después. Si tienes dudas sobre tu caso, puedes <a href="../../#contacto">contactar con nosotros</a> y te diremos qué vía aplica.</p>
+      <p data-en="Buildings in the protected Cidade Vella are a special case: catalogued buildings are handled under stricter heritage rules, so the timeline and paperwork are longer and any intervention must respect the protection. Beyond the council, keep your community of owners informed. A bathroom inside your flat does not need their permission, but anything affecting shared waste stacks or load-bearing walls usually does, and a quick conversation before you start saves friction later. If you are unsure about your case, you can <a href=\"../../#contacto\">contactar con nosotros</a> and we will tell you which route applies.">Los edificios de la Cidade Vella protegida son un caso especial: los inmuebles catalogados se rigen por normas patrimoniales más estrictas, de modo que los plazos y el papeleo son más largos y cualquier intervención debe respetar la protección. Más allá del ayuntamiento, mantén informada a tu comunidad de propietarios. Un baño dentro de tu vivienda no necesita su permiso, pero todo lo que afecte a bajantes comunes o muros de carga normalmente sí, y una conversación breve antes de empezar evita roces después. Si tienes dudas sobre tu caso, puedes <a href="../../#leadForm">contactar con nosotros</a> y te diremos qué vía aplica.</p>
       <h2 data-en="Timelines and checklist">Plazos y checklist</h2>
       <p data-en="A straightforward bathtub-to-shower swap can be done in two to four working days. A partial renovation usually takes one to two weeks, and a full bathroom from demolition to finishing runs around two to three weeks of on-site work, plus the drying times for waterproofing and adhesives that should never be rushed. Add the 15 working days of the comunicación previa before you can start, and material lead times if you choose special porcelain or a made-to-measure shower tray.">Un cambio sencillo de bañera por ducha puede resolverse en dos a cuatro días laborables. Una reforma parcial suele llevar de una a dos semanas, y un baño completo, desde la demolición hasta los remates, ronda las dos o tres semanas de trabajo en obra, más los tiempos de secado de impermeabilización y adhesivos que nunca conviene acelerar. Suma los 15 días hábiles de la comunicación previa antes de poder empezar y los plazos de material si eliges un porcelánico especial o un plato de ducha a medida.</p>
       <p data-en="The table below summarises the main options by scope, indicative 2026 price and typical duration so you can see at a glance which route fits your home and budget. If a bathroom is part of a larger project, it is often more efficient to fold it into a <a href=\"../reforma-integral-coruna/\">reforma integral en A Coruña</a> and coordinate all the trades at once.">La tabla siguiente resume las principales opciones por alcance, precio orientativo de 2026 y duración habitual para que veas de un vistazo qué vía encaja con tu vivienda y tu presupuesto. Si el baño forma parte de un proyecto mayor, a menudo es más eficiente integrarlo en una <a href="../reforma-integral-coruna/">reforma integral en A Coruña</a> y coordinar todos los gremios a la vez.</p>
@@ -767,7 +769,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
       <div class="article-cta">
         <h2 data-en="Ready to plan your renovation?">¿Listo para planificar tu reforma?</h2>
         <p data-en="Tell us what you want to change and send a few photos. We reply within 48 hours.">Cuéntanos qué quieres cambiar y envíanos algunas fotos. Te respondemos en 48 horas.</p>
-        <a class="btn btn-primary" href="https://wa.me/34662411064" data-en="Send photos via WhatsApp">Enviar fotos por WhatsApp <span class="arrow">→</span></a>
+        <div class="article-cta-actions"><a class="btn btn-primary" href="../../#leadForm"><span data-en="Tell us about your project">Cuéntanos tu proyecto</span> <span class="arrow">→</span></a><a class="btn btn-ghost" href="https://wa.me/34662411064" data-en="Send photos via WhatsApp">Enviar fotos por WhatsApp</a></div>
       </div>
       <nav class="article-pager" aria-label="Navegación de artículos">
         <a href="../reforma-integral-coruna/"><small data-en="Previous article">Artículo anterior</small><strong data-en="Full home renovation in A Coruña">Reforma integral en A Coruña</strong></a>
@@ -801,13 +803,14 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
           <li><a href="../../#alcance" data-en="Scope">Alcance</a></li>
           <li><a href="../../#proyectos" data-en="Projects">Proyectos</a></li>
           <li><a href="../" data-en="Blog">Blog</a></li>
-          <li><a href="../../#contacto" data-en="Contact">Contacto</a></li>
+          <li><a href="../../#leadForm" data-en="Contact">Contacto</a></li>
         </ul>
       </div>
       <div>
         <h4 data-en="Network">Red</h4>
         <ul>
           <li><a href="https://puntoreforma.es/ciudades/" data-en="Locations">Ubicaciones</a></li>
+          <li><a href="https://puntoreforma.es/preguntas-frecuentes/" data-en="FAQ">Preguntas frecuentes</a></li>
           <li><a href="https://puntoreforma.es/partners/" data-en="Collaborators">Colaboradores</a></li>
           <li><a href="https://puntoreforma.es/legal/" data-en="Legal notice">Aviso legal</a></li>
         </ul>

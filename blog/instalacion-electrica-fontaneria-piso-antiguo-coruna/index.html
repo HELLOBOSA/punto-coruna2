@@ -647,6 +647,8 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
 .article-body p { color: var(--ink-soft); font-size: 1.08rem; margin-top: 14px; }
 .article-cta { margin-top: 54px; border-top: 1px solid var(--line); padding-top: 30px; }
 .article-cta .btn { margin-top: 26px; }
+.article-cta-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.article-cta-actions .btn{margin-top:0}
 .article-pager { margin-top: 46px; padding-top: 26px; border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
 .article-pager a, .article-pager span { min-height: 118px; display: flex; flex-direction: column; justify-content: space-between; padding: 20px; border: 1px solid var(--line); border-radius: 8px; background: color-mix(in oklab, var(--bg-2) 58%, transparent); }
 .article-pager small { font-family:'Space Mono',monospace; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
@@ -686,7 +688,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
         <button data-lang="es" aria-pressed="true">ES</button>
         <button data-lang="en" aria-pressed="false">EN</button>
       </div>
-      <a href="../../#contacto" class="btn btn-primary" style="padding:11px 22px" data-en="Contact">Contacto</a>
+      <a href="../../#leadForm" class="btn btn-primary" style="padding:11px 22px" data-en="Contact">Contacto</a>
       <button class="nav-toggle btn btn-ghost" id="navToggle" style="padding:11px 14px" aria-label="Menú" aria-expanded="false">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="17" x2="21" y2="17"/></svg>
       </button>
@@ -701,7 +703,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
     <a href="../../#alcance" data-en="Scope">Alcance</a>
     <a href="../../#proyectos" data-en="Projects">Proyectos</a>
     <a href="../" data-en="Blog">Blog</a>
-    <a href="../../#contacto" data-en="Contact">Contacto</a>
+    <a href="../../#leadForm" data-en="Contact">Contacto</a>
   </div>
 </div>
 
@@ -748,7 +750,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
       <h2 data-en="The logic of costs and sequence">La lógica de los costes y la secuencia</h2>
       <p data-en="The order in which you do the work decides how much you spend. The cheapest moment to touch wiring and pipes is when the walls are already open for another reason, so the rule of thumb is simple: never close a wall you might want to open again soon. If you suspect the installation is on its way out, deal with it now.">El orden en que ejecutas la obra decide cuánto gastas. El momento más barato para tocar cables y tuberías es cuando las paredes ya están abiertas por otro motivo, así que la regla práctica es sencilla: nunca cierres una pared que quizá quieras volver a abrir pronto. Si sospechas que la instalación está al final de su vida, resuélvelo ahora.</p>
       <p data-en="A reasonable sequence in an old A Coruña flat is: first the demolition and the chasing, then the new pipes and cables, then the certificate and the new connection, then plastering and tiling, and finally the finishes and fittings. Doing it in this order means each gremio works once and does not have to come back to undo what the next one did. For permits, you will normally file a comunicación previa with the city council and you can start work fifteen working days after the complete documentation is submitted; the ICIO tax is around four per cent of the budget.">Una secuencia razonable en un piso antiguo de A Coruña es: primero la demolición y las rozas, después las tuberías y cables nuevos, luego el boletín y el nuevo enganche, a continuación el enlucido y el alicatado, y por último los acabados y aparatos. Hacerlo en este orden hace que cada gremio trabaje una sola vez y no tenga que volver a deshacer lo que hizo el siguiente. En cuanto a permisos, lo normal es presentar una comunicación previa en el ayuntamiento y puedes empezar la obra quince días hábiles después de presentar la documentación completa; el ICIO ronda el cuatro por ciento del presupuesto.</p>
-      <p data-en="There is one important exception. If the building is catalogued, as many are in the Ciudad Vieja, the procedure is stricter and may require a project signed by an architect registered in Spain. In those cases the timing and the paperwork change, so it is worth confirming the situation before you commit to a start date. If you want us to look at your case, get in touch and we will tell you what your building needs.">Hay una excepción importante. Si el edificio está catalogado, como ocurre con muchos en la Ciudad Vieja, el procedimiento es más estricto y puede requerir un proyecto firmado por un arquitecto colegiado en España. En esos casos los plazos y el papeleo cambian, así que conviene confirmar la situación antes de comprometer una fecha de inicio. Si quieres que estudiemos tu caso, <a href="../../#contacto">ponte en contacto</a> y te diremos qué necesita tu edificio.</p>
+      <p data-en="There is one important exception. If the building is catalogued, as many are in the Ciudad Vieja, the procedure is stricter and may require a project signed by an architect registered in Spain. In those cases the timing and the paperwork change, so it is worth confirming the situation before you commit to a start date. If you want us to look at your case, get in touch and we will tell you what your building needs.">Hay una excepción importante. Si el edificio está catalogado, como ocurre con muchos en la Ciudad Vieja, el procedimiento es más estricto y puede requerir un proyecto firmado por un arquitecto colegiado en España. En esos casos los plazos y el papeleo cambian, así que conviene confirmar la situación antes de comprometer una fecha de inicio. Si quieres que estudiemos tu caso, <a href="../../#leadForm">ponte en contacto</a> y te diremos qué necesita tu edificio.</p>
 
       <h2 data-en="Symptom, probable cause and trade">Tabla: síntoma, causa probable y gremio</h2>
       <p data-en="This quick table links the most common symptoms in old A Coruña flats with their probable cause and the trade you need to call. It is a starting point, not a diagnosis: a professional should always confirm what is happening before you open a wall.">Esta tabla rápida relaciona los síntomas más comunes en los pisos antiguos de A Coruña con su causa probable y el gremio al que debes llamar. Es un punto de partida, no un diagnóstico: un profesional debe confirmar siempre qué ocurre antes de abrir una pared.</p>
@@ -807,7 +809,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
       <div class="article-cta">
         <h2 data-en="Ready to plan your renovation?">¿Listo para planificar tu reforma?</h2>
         <p data-en="Tell us what you want to change and send a few photos. We reply within 48 hours.">Cuéntanos qué quieres cambiar y envíanos algunas fotos. Te respondemos en 48 horas.</p>
-        <a class="btn btn-primary" href="https://wa.me/34662411064" data-en="Send photos via WhatsApp">Enviar fotos por WhatsApp <span class="arrow">→</span></a>
+        <div class="article-cta-actions"><a class="btn btn-primary" href="../../#leadForm"><span data-en="Tell us about your project">Cuéntanos tu proyecto</span> <span class="arrow">→</span></a><a class="btn btn-ghost" href="https://wa.me/34662411064" data-en="Send photos via WhatsApp">Enviar fotos por WhatsApp</a></div>
       </div>
       <nav class="article-pager" aria-label="Navegación de artículos">
         <a href="../reforma-piso-coruna-precio/"><small data-en="Previous article">Artículo anterior</small><strong data-en="How much it costs to renovate a flat in A Coruña">Cuánto cuesta reformar un piso en A Coruña</strong></a>
@@ -841,13 +843,14 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
           <li><a href="../../#alcance" data-en="Scope">Alcance</a></li>
           <li><a href="../../#proyectos" data-en="Projects">Proyectos</a></li>
           <li><a href="../" data-en="Blog">Blog</a></li>
-          <li><a href="../../#contacto" data-en="Contact">Contacto</a></li>
+          <li><a href="../../#leadForm" data-en="Contact">Contacto</a></li>
         </ul>
       </div>
       <div>
         <h4 data-en="Network">Red</h4>
         <ul>
           <li><a href="https://puntoreforma.es/ciudades/" data-en="Locations">Ubicaciones</a></li>
+          <li><a href="https://puntoreforma.es/preguntas-frecuentes/" data-en="FAQ">Preguntas frecuentes</a></li>
           <li><a href="https://puntoreforma.es/partners/" data-en="Collaborators">Colaboradores</a></li>
           <li><a href="https://puntoreforma.es/legal/" data-en="Legal notice">Aviso legal</a></li>
         </ul>
